@@ -650,6 +650,11 @@ padding-block: 12px 160px;
     padding-top: 94px;
 }
 
+.real-master-bottom:hover {
+    background-color: #299764;
+    transition: 0.67s;
+}
+
 
 
 /* nayn */

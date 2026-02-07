@@ -226,7 +226,7 @@ margin-bottom: 24px;
     border-radius: 100px;
     padding: 19px 40px 19px 40px;
     background-color: #272727;
-    color: #000000;
+    color: #ffffff;
     font-weight: 500;
     font-style: Medium;
     font-size: 16px;
@@ -650,13 +650,6 @@ padding-block: 12px 160px;
     padding-top: 94px;
 }
 
-.real-master-bottom:hover {
-    background-color: #299764;
-    transition: 0.67s;
-}
-
-
-
 /* nayn */
 
 .master-bottom-item-imgg {
@@ -683,6 +676,11 @@ padding-block: 12px 160px;
     border-radius: 16px;
     background-color: #272727;
     padding: 0px 15px 0px 15px;
+}
+
+.master-bottom-item:hover {
+    background-color: #299764;
+    transition: 0.67s;
 }
 
 .master-bottom-item-img {

@@ -1,0 +1,219 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #000000;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration-line: none;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-block: 0;
+}
+
+.container {
+    width: 1240px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+
+.section-two {
+    padding-bottom: 160px;
+}
+
+
+.list {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+column-gap: 20px;
+row-gap: 20px;
+}
+
+.list-item {
+    width: 387px;
+    border-radius: 16px;
+    background-color:#272727;
+}
+
+.list-item:hover {
+    background-color: #299764;
+    transition: 0.52s;
+}
+
+
+.top {
+    width: max-content;
+    margin-inline: auto;
+    margin-block: 133px 40px;
+}
+
+.top-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.top-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+
+.class-car {
+display: flex;
+align-items: center;
+column-gap: 16px;
+width: max-content;
+margin-inline: auto;
+margin-bottom: 24px;
+}
+
+.class-link {
+    width: 155px;
+    width: max-content;
+    border-radius: 100px;
+    padding: 19px 40px 19px 40px;
+    background-color: #299764;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.class-links {
+    width: 155px;
+    width: max-content;
+    border-radius: 100px;
+    padding: 19px 40px 19px 40px;
+    background-color: #272727;
+    color: #ffffff;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.car-name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-inline: 24px;
+    padding-top: 30px;
+    margin: 0;
+    color:#FFFFFF;
+}
+
+.car-info {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-inline: 24px; 
+    color:#FFFFFF; 
+}
+
+
+.car-all-info {
+    display: flex;
+    align-items: center;
+    padding-inline:24px 89px ;   
+    width: max-content; 
+}
+
+.car-top {
+display: j;
+}
+
+.car-bottom {
+    padding-inline: 66px;
+
+}
+
+.car-fuel {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.car-user-old   {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+
+}
+
+.automat {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.car-users {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+
+}
+
+.see-card {
+    width: 173px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border-radius: 100px;
+    padding: 18px 30px 18px 30px;
+    background-color: #299764;
+    margin-top: 40px;
+    color: #FFFFFF;
+    margin-inline: 695px;
+}
+
+

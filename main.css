@@ -684,10 +684,11 @@ padding-top: 20px;
     right: 144px;
 }
 
+
 .placebnt {
     position: absolute;
-    top: 235px;
-    left: 166px;
+    top: 468px;
+    left: 336px;
 }
 
 input::placeholder {
@@ -720,6 +721,7 @@ input {
     height: 66px;
     border-radius: 100px;
     border: none;
+
 }
 
 

@@ -160,7 +160,7 @@ row-gap: 20px;
 
 .list-item:hover {
     background-color: #299764;
-    transition: 0.52s;
+    transition: 500ms;
 }
 
 
@@ -560,7 +560,7 @@ padding-block: 12px 160px;
 
 .infocar:hover {
     background-color: #299764;
-    transition: 0.3s;
+    transition: 0.67s;
     color: #FFFFFF;
 }
 

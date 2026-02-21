@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(-20deg, rgb(0, 218, 242), rgb(0, 178, 198), rgb(0, 137, 168), rgb(0, 107, 101));
+    background-repeat: no-repeat;
+    padding: 100px;
+    padding-bottom: 200px;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration-line: none;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-block: 0;
+}
+
+.container {
+    width: 1240px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+.bgg-wrappar {
+    background: linear-gradient(-20deg, rgb(0, 218, 242), rgb(0, 178, 198), rgb(0, 137, 168), rgb(0, 107, 101));
+    padding-bottom: 300px;
+    
+}
+
+.bgg-wrappar-hero {
+    padding-top: 150px;
+    
+}
+
+.car-name {
+    text-align: center;
+    color: #fff;
+}
+
+.car-desc {
+    color: #fff;
+}
+
+
+.imgp {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+/* .car-img-one {
+    
+} */
+
+.car-img-two {
+    border-radius: 12.67px;
+}
+
+.car-link {
+    padding: 15px 20px;
+    background: linear-gradient(-20deg, rgb(0, 218, 242), rgb(0, 178, 198), rgb(0, 137, 168), rgb(0, 107, 101));
+    border-radius: 6px;
+    color: white;
+    width: max-content;
+    margin-inline: 500px;
+}
+
+.car-link:hover {
+    padding: 15px 20px;
+    background: linear-gradient(-20deg, rgb(0, 218, 242), rgb(0, 178, 198), rgb(0, 137, 168), rgb(0, 107, 101));
+    border-radius: 6px;
+    color: white;
+    width: max-content;
+    margin-inline: 500px;
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+

@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -30,27 +31,52 @@ ul {
 
 /* top */
 
+.site-header {
+    border-bottom: 1.5px solid #E5E7EA;
+    
+}
+
+.scale{
+    transition: 0.3s linear;
+    
+}
+
+
+.scale:hover {
+    transform: scale(1.2);
+}
+
 
 .hearder-wrappar {
     display: flex;
     align-items: center;
-    padding-block: 18px;
-    gap: 36px;
+}
+
+.site-logo {
+    padding-block: 27px;
+    padding-right:20px;
 }
 
 .navbar {
-display: flex;
-align-items: center;
-gap: 369px;
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
 .navbar-list {
     display: flex;
     align-items: center;
-    width: 446px;
-    gap: 34px;
+    width: 466px;
+    padding-right: 20px;
 }
 
+.navbar-item {
+    width: 130px;
+}
+
+/* .navbar-link {
+
+} */
 
 .navbar-link-text {
     font-weight: 500;
@@ -59,43 +85,48 @@ gap: 369px;
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
-    color: #000000;
+    color: #000;
 }
 
 .right-header {
-display: flex;
-align-items: center;
-width: max-content;
-column-gap: 24px;
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    position: absolute;
+    right: -646px;
 }
 
 .right-header-p {
-display: flex;
-align-items: center;
+font-weight: 600;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000;
 }
 
 .right-link-img {
     width: 142px;
-    border-radius: 100px;
+    height: 58px;
     gap: 8px;
+    border-radius: 100px;
     padding: 18px 30px 18px 30px;
-    background-color: #299764;
-    display: flex;
-    align-items: center;
+    background: #299764;
     font-weight: 500;
     font-style: Medium;
     font-size: 18px;
     line-height: 100%;
     letter-spacing: 0%;
-    color: #ffffff;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    
 }
 
-.site-header {
-width: 1440px;
-height: 94px;
-border-bottom: 1.5px solid #E5E7EA;
-}
+/* 
 
+.right-link {
+
+} */
 
 /* top---end */
 
@@ -647,6 +678,7 @@ flex-wrap: wrap;
     vertical-align: bottom;
     color: #000000;
     padding-bottom: 4px;
+    
 }
 
 /* nayn/ */
@@ -671,6 +703,9 @@ padding-top: 20px;
     letter-spacing: 0%;
     vertical-align: bottom;
     color: #000000;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    padding-left: 15px;
 }
 
 .master-wrappar {
@@ -681,7 +716,7 @@ padding-top: 20px;
 
 .mexanik {
     position: absolute;
-    right: 144px;
+    right: -84px;
 }
 
 
@@ -705,6 +740,7 @@ input::placeholder {
 
 .rad {
     border-radius: 20px;
+    margin-top: 20px;
 }
 
 button {
